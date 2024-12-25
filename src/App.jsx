@@ -13,6 +13,14 @@ import useWindowresize from "./hooks/useWindowresize";
 import DebounceUse from "./pages/customHooks/DebounceUse";
 import ToggleUsecase from "./pages/customHooks/ToggleUsecase";
 import Previoususecase from "./pages/customHooks/Previoususecase";
+import Timer from "./pages/Timer";
+import Radiobtn from "./pages/Radiobtn";
+import ForwardRef from "./pages/ForwardRef";
+import DebouncedInput from "./pages/Debounced";
+import TextAreaRef from "./pages/TextAreaRef";
+import DropdownSelectCountry from "./pages/DropdownSelectCountry";
+import PracticeJs from "./pages/PracticeJs";
+import SelectAllCheckbox from "./pages/selectAllCheckbox/SelectAllCheckbox";
 
 function App() {
   // const {
@@ -25,6 +33,7 @@ function App() {
         Hello
         {/* Hello height{height}-width{width} */}
       </h1>
+      {/* <PracticeJs /> */}
       {/* <PostDataExample />
       <GetDataExample /> */}
       {/* <ClickCounter buttonName="Click Me!" />
@@ -35,7 +44,14 @@ function App() {
       {/* <ExpensiveCalculation /> */}
       {/* <DebounceUse /> */}
       {/* <ToggleUsecase /> */}
-      <Previoususecase />
+      {/* <Previoususecase /> */}
+      {/* <Timer /> */}
+      {/* <Radiobtn /> */}
+      {/* <ForwardRef /> */}
+      {/* <DebouncedInput />  */}
+      {/* <TextAreaRef /> */}
+      {/* <DropdownSelectCountry /> */}
+      <SelectAllCheckbox />
     </>
   );
 }
