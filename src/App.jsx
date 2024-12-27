@@ -21,6 +21,9 @@ import TextAreaRef from "./pages/TextAreaRef";
 import DropdownSelectCountry from "./pages/DropdownSelectCountry";
 import PracticeJs from "./pages/PracticeJs";
 import SelectAllCheckbox from "./pages/selectAllCheckbox/SelectAllCheckbox";
+import SelectCountryStateCity from "./pages/selectCountryStateCity/SelectCountryStateCity";
+import FolderStructure from "./pages/folderstructure/FolderStructure";
+import { data } from "./data/folder";
 
 function App() {
   // const {
@@ -33,6 +36,8 @@ function App() {
         Hello
         {/* Hello height{height}-width{width} */}
       </h1>
+      <FolderStructure data={data} />
+      {/* <SelectCountryStateCity /> */}
       {/* <PracticeJs /> */}
       {/* <PostDataExample />
       <GetDataExample /> */}
@@ -51,7 +56,7 @@ function App() {
       {/* <DebouncedInput />  */}
       {/* <TextAreaRef /> */}
       {/* <DropdownSelectCountry /> */}
-      <SelectAllCheckbox />
+      {/* <SelectAllCheckbox /> */}
     </>
   );
 }
